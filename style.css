@@ -1,0 +1,157 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: #00a84f;
+}
+
+section {
+  padding: 45px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 60px;
+  font-weight: 400px;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+}
+
+h3 {
+  color: #00a84f;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 105%;
+}
+
+.hero {
+  background-image: url('images/austin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.bio {
+  width: 65%;
+  margin: 40px auto;
+}
+
+.bio img, .text {
+  display: inline-block;
+}
+
+.bio img{
+  width: 24%;
+}
+
+.text {
+  width: 74%;
+  text-align: left;
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+/*Buttons*/
+.orange-button {
+  text-transform: uppercase;
+  color: white;
+  background-color: #f37735;
+  padding: 5px 25px;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.orange-button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #dc6f35;
+}
+
+/*Tidbits*/
+
+.tidbits {
+  background-color: #e8e8e7;
+}
+
+.tidbits-container {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.tidbits img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/*Form*/
+.contact h3{
+  margin-top: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  border: #00a84f solid 2px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 5%;
+}
+
+footer li {
+  margin: 0 auto;
+}
+
+footer img {
+  height: 50%;
+  background-color: white;
+  border-radius: 50%;
+}
